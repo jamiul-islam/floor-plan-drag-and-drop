@@ -1,0 +1,50 @@
+body {
+  background-image: url("./studio-floor-plan-image.jpeg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.fill {
+  background-color: salmon;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.hold {
+  border: solid 5px #ccc;
+}
+
+.empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  border: solid 3px rgba(175, 175, 175, 0.201);
+  background: white;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}
+
+#item1 {
+  position: relative;
+  top: 50vh;
+}
+
+#item2 {
+  position: relative;
+  top: 13vh;
+  left: -8vw;
+}
+
+#item3 {
+  position: relative;
+  top: 10vh;
+  left: 9vw;
+}
